@@ -10,6 +10,7 @@ import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <FAQ />
       <CTA />
       <Footer />
+      <Analytics />
     </div>
   );
 }
